@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ExploreSpringSecurityApplication",
+            "request": "launch",
+            "mainClass": "com.explore.spring.security.ExploreSpringSecurityApplication",
+            "projectName": "explore-spring-security"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-WebSocketExperimentApplication<WebSocket-experiment>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.websocket.chat.experiment.WebSocketExperimentApplication",
+            "projectName": "WebSocket-experiment",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
